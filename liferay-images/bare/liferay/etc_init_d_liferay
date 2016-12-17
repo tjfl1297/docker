@@ -27,9 +27,7 @@ start() {
     else
         # Start liferay-7.0-ga3
         echo "Starting Liferay-7.0-ga3"        
-        /opt/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/bin/startup.sh
-        # Auto-start openoffice
-        service openoffice start
+        /opt/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/bin/startup.sh        
     fi
     return 0
 }
