@@ -1,10 +1,10 @@
-FROM amazonlinux
+FROM centos
 MAINTAINER Hua Luo <hluo997@gmail.com>
 
 ## install required tools and Oracle JDK
-RUN yum -y install findutils \
-	&& yum -y install wget \
+RUN yum -y install wget \
 	&& yum -y install zip unzip \
+	&& yum -y reinstall glibc-common \
 	&& yum -y remove java* \
 	&& wget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.rpm \	
 	&& rpm -Uvh jdk-8u111-linux-x64.rpm \
