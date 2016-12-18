@@ -49,3 +49,7 @@ RUN curl -fSL https://sourceforge.net/projects/lportal/files/Liferay%20Portal/7.
 	&& sed -i -e 's/\r//g' /etc/init.d/liferay \
 	&& chkconfig --add liferay \	
 	&& rm -Rf /liferay
+
+## install service command and clean up
+RUN yum -y install initscripts \
+	&& yum clean all
