@@ -1,7 +1,0 @@
-.portlet-polls-display .no-progress {
-  opacity: 0.4; }
-  .portlet-polls-display .no-progress .progress-bar-status {
-    display: none; }
-
-.portlet-polls-display .icons-container .lfr-icon-actions {
-  float: right; }
