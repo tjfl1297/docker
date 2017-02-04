@@ -1,0 +1,178 @@
+.private-messaging-portlet {
+  /* ---------- Messages ---------- */
+  /* ---------- Results ---------- */
+  /* ---------- Thread ---------- */ }
+  .private-messaging-portlet .layout {
+    width: auto; }
+  .private-messaging-portlet .alert {
+    margin-bottom: 0; }
+  .private-messaging-portlet .column-content .check-all {
+    margin: 0 20px 0 5px; }
+  .private-messaging-portlet .lfr-search-container {
+    margin: 0 0 0 -1px; }
+  .private-messaging-portlet .controls {
+    background: #EEE9E9;
+    border-bottom-width: 0;
+    padding: 5px 10px; }
+    .private-messaging-portlet .controls .check-all {
+      margin: 9px 6px 9px 0; }
+  .private-messaging-portlet img.avatar {
+    width: 60px; }
+  .private-messaging-portlet .body {
+    clear: right;
+    word-break: break-word; }
+  .private-messaging-portlet .thread .message-container {
+    margin: 0 10px; }
+  .private-messaging-portlet .message-container .portlet-msg-error {
+    display: block;
+    margin-bottom: 10px; }
+  .private-messaging-portlet .message-attachments {
+    clear: both; }
+    .private-messaging-portlet .message-attachments li {
+      list-style: none; }
+  .private-messaging-portlet .message-to input, .private-messaging-portlet .message-subject input {
+    width: 300px; }
+  .private-messaging-portlet .message-body, .private-messaging-portlet .message-subject, .private-messaging-portlet .message-to {
+    box-sizing: border-box;
+    width: 100%; }
+  .private-messaging-portlet .message-body {
+    min-height: 100px; }
+  .private-messaging-portlet input[type="file"] {
+    height: 24px;
+    line-height: 24px;
+    padding: 0; }
+  .private-messaging-portlet .author-sender, .private-messaging-portlet .name {
+    float: left;
+    font-weight: bold;
+    padding-right: 0.3em; }
+  .private-messaging-portlet .message-link {
+    display: block;
+    margin: -10px;
+    padding: 10px;
+    padding-left: 80px;
+    position: relative;
+    z-index: 1; }
+    .private-messaging-portlet .message-link .body {
+      color: #666; }
+    .private-messaging-portlet .message-link .subject {
+      clear: right;
+      color: #333;
+      word-break: break-word; }
+  .private-messaging-portlet .private-messaging-container .results-header, .private-messaging-portlet .taglib-user-display.display-style-2 .user-details, .private-messaging-portlet .taglib-user-display.display-style-2 .user-name {
+    display: none; }
+  .private-messaging-portlet .table {
+    border-top-width: 0;
+    margin-bottom: 0; }
+    .private-messaging-portlet .table thead {
+      display: none; }
+    .private-messaging-portlet .table .first {
+      vertical-align: middle;
+      width: 12px; }
+  .private-messaging-portlet .table-striped .table-data .first, .private-messaging-portlet .table-striped .table-data .last {
+    background: none; }
+  .private-messaging-portlet .unread {
+    font-weight: bold; }
+    .private-messaging-portlet .unread .body {
+      font-weight: normal; }
+  .private-messaging-portlet .messages .table-data tr:hover td, .private-messaging-portlet .messages .table-data tr:nth-child(odd) td, .private-messaging-portlet .messages .table-data tr td {
+    background: #FFF;
+    padding: 10px; }
+  .private-messaging-portlet .messages .table-data tr.unread td {
+    background: #F0F5F7; }
+  .private-messaging-portlet .taglib-page-iterator {
+    padding: 10px; }
+    .private-messaging-portlet .taglib-page-iterator .lfr-pagination-buttons, .private-messaging-portlet .taglib-page-iterator .lfr-pagination-config, .private-messaging-portlet .taglib-page-iterator .search-results {
+      line-height: 30px; }
+  .private-messaging-portlet .taglib-search-iterator-page-iterator-top {
+    border-top: 1px solid #DDD;
+    margin-bottom: 0; }
+  .private-messaging-portlet .thread .taglib-header {
+    border-top: 1px solid #C8C9CA;
+    margin-top: 0;
+    padding: 0 10px; }
+    .private-messaging-portlet .thread .taglib-header .header-title {
+      display: inline; }
+      .private-messaging-portlet .thread .taglib-header .header-title span {
+        white-space: normal;
+        word-break: break-all; }
+  .private-messaging-portlet .thread .body {
+    margin-top: 5px; }
+    .private-messaging-portlet .thread .body .image-thumbnail {
+      float: left;
+      height: 150px;
+      margin: 10px;
+      width: 150px; }
+      .private-messaging-portlet .thread .body .image-thumbnail img {
+        max-height: 150px;
+        max-width: 150px; }
+  .private-messaging-portlet .thread .thread-info {
+    padding: 0 10px 10px; }
+  .private-messaging-portlet .thread tr td {
+    background-color: transparent;
+    border-bottom: 1px solid #CFCFCF; }
+    .private-messaging-portlet .thread tr td.last, .private-messaging-portlet .thread tr td.only {
+      border-bottom-width: 0; }
+  .private-messaging-portlet .thread .lfr-search-container, .private-messaging-portlet .thread .message-body-container-content {
+    margin: 0 10px; }
+  .private-messaging-portlet .thread .name {
+    font-weight: bold; }
+  .private-messaging-portlet .thread .back-button {
+    float: right; }
+  .private-messaging-portlet .date {
+    color: #777;
+    float: right;
+    font-size: 11px; }
+  .private-messaging-portlet .messages .taglib-user-display, .private-messaging-portlet .thread .taglib-user-display {
+    float: left;
+    padding: 0; }
+  .private-messaging-portlet .line-through {
+    text-decoration: line-through; }
+
+/* ---------- Extras ---------- */
+.private-messaging-portlet .controls {
+  border-radius: 4px; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 979px) {
+  .private-messaging-portlet .btn-group, .private-messaging-portlet .button-holder {
+    width: auto; } }
+
+@media (max-width: 767px) {
+  .private-messaging-portlet .messages .button-holder {
+    padding-left: 51px;
+    position: relative; }
+    .private-messaging-portlet .messages .button-holder .check-all {
+      height: 24px;
+      left: 16px;
+      margin-top: -12px;
+      position: absolute;
+      top: 50%;
+      width: 24px; }
+  .private-messaging-portlet .messages .table .first input {
+    height: 24px;
+    margin-left: 6px;
+    width: 24px; }
+  .private-messaging-portlet button, .private-messaging-portlet button:hover {
+    margin-bottom: 5px;
+    width: 100%; }
+    .private-messaging-portlet button.close, .private-messaging-portlet button:hover.close {
+      width: auto; }
+    .private-messaging-portlet button:last-child, .private-messaging-portlet button:hover:last-child {
+      margin-bottom: 0; }
+  .private-messaging-portlet .message-link {
+    padding-left: 10px; }
+  .private-messaging-portlet .user-profile-image {
+    height: 45px; }
+  .private-messaging-portlet .avatar {
+    width: 45px; }
+  .private-messaging-portlet .author-sender, .private-messaging-portlet .date, .private-messaging-portlet .name {
+    float: none; }
+  .private-messaging-portlet .date {
+    display: block;
+    font-size: 1em;
+    margin-top: 3px; }
+  .private-messaging-portlet .subject {
+    margin-top: 10px; }
+  .private-messaging-portlet .body {
+    clear: both;
+    margin-top: 10px; } }

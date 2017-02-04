@@ -9,6 +9,9 @@ RUN cp /custom/osgi/configs/* /opt/liferay-ce-portal-7.0-ga3/osgi/configs \
 	&& cp /custom/setenv.sh /opt/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/bin \
 	&& rm -Rf /custom
 
+# mount data folder
+VOLUME ["/opt/liferay-ce-portal-7.0-ga3/data"]
+
 EXPOSE 8080/tcp
 EXPOSE 11311/tcp
 

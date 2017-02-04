@@ -6,7 +6,9 @@ COPY custom/ /custom/
 ## add custom configurations, modules and entrypoint script.
 RUN cp /custom/osgi/configs/* /opt/liferay-ce-portal-7.0-ga3/osgi/configs \
 	&& cp /custom/osgi/marketplace/override/* /opt/liferay-ce-portal-7.0-ga3/osgi/marketplace/override \
-	&& cp /custom/osgi/modules/* /opt/liferay-ce-portal-7.0-ga3/osgi/modules \
+	&& cp /custom/osgi/modules/* /opt/liferay-ce-portal-7.0-ga3/osgi/modules \	
+	&& cp /custom/precompiled/osgi/* /opt/liferay-ce-portal-7.0-ga3/work \
+	&& cp /custom/precompiled/ROOT /opt/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/work/Catalina/localhost \	
 	&& cp /custom/docker-entrypoint.sh / \
 	&& chmod 755 /docker-entrypoint.sh \
 	&& sed -i -e 's/\r//g' /docker-entrypoint.sh \	

@@ -1,0 +1,21 @@
+.staging-configuration-control-label {
+  color: #869CAD;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: auto; }
+
+.staging-configuration-control-label-bold {
+  color: #000;
+  font-weight: bold; }
+
+.staging-configuration-control-toggle div {
+  margin-bottom: 0; }
+  .staging-configuration-control-toggle div label {
+    margin-bottom: 0; }
+
+.staging-configuration-help-label {
+  color: #869CAD;
+  font-size: 14px; }
+
+.staging-configuration-list {
+  box-shadow: none; }
